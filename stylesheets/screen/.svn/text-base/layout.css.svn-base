@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+
+@media screen, projection
+{
+
+/** INICIO: PAGINA PRINCIPAL / INDICE DE SERVIÇOS **/
+
+	.feed{
+		float: right;
+		width: 120px;
+		height: 59px;
+		margin: 15px 10px 0 0;
+	}
+	.slider{
+		float: left;
+	}
+
+	ul.indice{
+		margin: 0;
+		padding: 0 5% 0.5em 5%;
+		width: 90%;
+		margin: 0.1em 0;
+		border: 1px solid #ddd;
+		background: url("../../images/layout/panel_b.png") 0 100% repeat-x
+	}
+	ul.indice li{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		float: left;
+		width: 46%;
+		padding: 1%;
+		padding-left: 2%;
+		background: url("../../images/layout/arrow1.gif") 0 65% no-repeat;
+		display: inline;
+		line-height: 100%;
+	}
+	ul.indice li a{
+		width: 46%;
+		padding: 1%;
+		padding-left: 2%;
+	}
+	.left{
+		float: left;
+	}
+	.right{
+		float: left;
+	}
+	ul.indice h3{
+		width: 100%;
+		float: left;
+		margin: 0.7em 0 0.5em 0;
+		padding-bottom: 0em;
+		line-height: 130%;
+		text-transform: uppercase;
+		letter-spacing: 2px;
+		color: #194E8F;
+		font-weight: bold;
+	}
+	h2.title-guia{
+		margin-top: 20px;
+		float: left;
+		width: 100%;
+		font-size: 150%;
+		text-align: left;
+	}
+
+
+	/** INICIO: ANUNCIANTES **/
+	ul.anunciantes h2{
+		font-size: 120%;
+		font-weight: bold;
+		letter-spacing: 1px;
+		display: none;
+		margin: 0;
+	}
+	ul.anunciantes{
+		margin: 0;
+		padding: 0;
+		width: 237px;
+	}	
+	ul.anunciantes li{
+		margin: 0;
+		padding: 0;
+		list-style-type: none;
+		float: left;
+		width: 237px;
+		line-height: 100%;
+	}	
+	
+	/** FIM: ANUNCIANTES **/
+
+
+/** FIM: PAGINA PRINCIPAL / INDICE DE SERVI�OS **/
+
+}

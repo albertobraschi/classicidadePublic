@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+
+@media all
+{
+
+	.nav-outer{
+		background: url("../../images/nav/border-left.png") top left	 no-repeat;
+		padding-left: 17px;
+		height: 50px;
+		width: 951px;
+		margin: 0 auto;
+	}
+	
+	.nav-inner{
+		background: url("../../images/nav/border-right.png") top right no-repeat;
+		padding-right: 17px;
+		height: 50px;
+	}
+	
+	#nav{
+		width: 931px;
+		background: url("../../images/nav/bg-menu.png") top left repeat-x;
+		height: 42px;
+		padding-top: 8px;
+	}
+	
+  .hlist {
+	width: 100%;
+    overflow: hidden;
+    float: left;
+    display: inline;
+    position:relative;
+    line-height: 0;
+  }
+
+  .hlist ul {
+    display: inline;
+    float: left; 
+    margin: 0; 
+    padding: 0;
+	width: 100%;
+  }
+
+  .hlist ul li {
+    display: inline;
+    float: left; /* LTR */
+    font-size: 1.0em;
+    line-height: 1em;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 24.5%;
+	text-align: center;
+	background: url("../../images/nav/separator.png") 100% 0 no-repeat;
+  }
+
+  .hlist ul li.last {
+	background: none;
+  }
+
+  .hlist ul li a,
+  .hlist ul li strong {
+    background: transparent;
+    color: #000;
+    display: block;
+    font-size: 1.5em;
+	font-family: Trebuchet MS;
+    margin: 0;
+    padding: 1.1em 0.8em 0.5em 0.8em ;
+    text-decoration: none;
+  }
+
+  .hlist ul li a:focus,
+  .hlist ul li a:hover,
+  .hlist ul li a:active  { color: #666; text-decoration: none; }
+  
+
+
+  .hlist ul li.active {
+    background: #272727 ;
+  }
+
+  .hlist ul li.active strong,
+  .hlist ul li.active a:focus,
+  .hlist ul li.active a:hover,
+  .hlist ul li.active a:active { background: transparent; color: #fff; text-decoration: none; }
+}
